@@ -615,6 +615,22 @@ body {
 
 @media (max-width: 768px) {
   
+  .container.header-content {
+    padding: 0 1.5rem;
+  }
+
+  /* 2) Garante que o botão de menu fique centralizado dentro do seu espaço */
+  .nav-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;         /* tamanho do “touch area” */
+    height: 3rem;
+    margin: 0;           /* zera margens conflitantes */
+    margin-right: 1rem;  /* só um pouco de folga no canto */
+  }
+
+
 
 
   .partner-hero {
